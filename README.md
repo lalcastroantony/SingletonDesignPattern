@@ -1,4 +1,4 @@
-# SingletonDesignPattern
+# Singleton Design Pattern
 - Singleton is a design pattern in which only one instance of a class can be present.
 - Struct cannot be a singleton
 
