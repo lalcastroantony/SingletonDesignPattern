@@ -11,4 +11,5 @@
 ## Cons
 - It can make more bugs as Singleton can be accessed from anywhere in the project. You need to make sure everything works fine.
 - Testing can't be done with Singleton properly. They carry state around for the lifetime of the application. Another hit to testing since you can end up with a situation where tests need to be ordered which is a big no no for unit tests. Why? Because each unit test should be independent from the other.
+- Memory leaks
 
